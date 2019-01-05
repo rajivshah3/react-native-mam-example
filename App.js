@@ -28,18 +28,13 @@ export default class App extends Component<Props> {
     this.onButtonPress = this.unboundOnButtonPress.bind(this);
   }
 
-  componentDidMount() {
-    let seed = null;
-    generateNewSeed().then((seed) => {
-      this.setState({ seed });
-      console.log(this.state.seed);
-    });
+  async componentDidMount() {
+    const seed = await generateNewSeed();
+    this.setState({ seed });
   }
 
   unboundOnButtonPress() {
-    console.log(this.state.seed);
     const { seed } = this.state;
-    console.log(seed);
     if (seed) {
       const mam = Mam.init("https://nodes.thetangle.org:443", seed, 2);
       console.log(mam);
