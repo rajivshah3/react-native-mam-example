@@ -36,11 +36,11 @@
 		2DCD954D1E0B4F2C00145EB5 /* MamExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MamExampleTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		60201C9C21E1449E00811135 /* libRNRandomBytes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60201C9821E1441400811135 /* libRNRandomBytes.a */; };
+		60201CE221E147E600811135 /* libTcpSockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60201CE021E147BA00811135 /* libTcpSockets.a */; };
+		60201CE321E147ED00811135 /* libUdpSockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60201CDB21E147B900811135 /* libUdpSockets.a */; };
+		60201CE421E147FF00811135 /* libRNOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60201CD821E147B900811135 /* libRNOS.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		CA3DDB923943431C8E949B8D /* libUdpSockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A30EFEBD53E044A585946756 /* libUdpSockets.a */; };
-		E0BAF0A1D95D4C4C9A17D5ED /* libTcpSockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B09068463CD46E5A426FA26 /* libTcpSockets.a */; };
-		E0F6F72AC0414E49A6CE2556 /* libRNOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BEDE4857B9347BEB166F784 /* libRNOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -364,7 +364,6 @@
 		00E356EE1AD99517003FC87E /* MamExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MamExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MamExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MamExampleTests.m; sourceTree = "<group>"; };
-		0B09068463CD46E5A426FA26 /* libTcpSockets.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libTcpSockets.a; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* MamExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MamExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -375,7 +374,6 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MamExample/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MamExample/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		1BEDE4857B9347BEB166F784 /* libRNOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNOS.a; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* MamExample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MamExample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* MamExample-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MamExample-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3228F7A2CA8A40A38E1BDC43 /* TcpSockets.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = TcpSockets.xcodeproj; path = "../node_modules/react-native-tcp/ios/TcpSockets.xcodeproj"; sourceTree = "<group>"; };
@@ -383,7 +381,6 @@
 		64C4EEA0784248D3B671E818 /* RNRandomBytes.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNRandomBytes.xcodeproj; path = "../node_modules/react-native-randombytes/RNRandomBytes.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		A30EFEBD53E044A585946756 /* libUdpSockets.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libUdpSockets.a; sourceTree = "<group>"; };
 		A93FC51E691A4D5982EC77AC /* UdpSockets.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = UdpSockets.xcodeproj; path = "../node_modules/react-native-udp/ios/UdpSockets.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		F5D1C97780ED4BA2BA0EBE1E /* RNOS.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNOS.xcodeproj; path = "../node_modules/react-native-os/ios/RNOS.xcodeproj"; sourceTree = "<group>"; };
@@ -402,6 +399,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60201CE421E147FF00811135 /* libRNOS.a in Frameworks */,
+				60201CE321E147ED00811135 /* libUdpSockets.a in Frameworks */,
+				60201CE221E147E600811135 /* libTcpSockets.a in Frameworks */,
 				60201C9C21E1449E00811135 /* libRNRandomBytes.a in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				11D1A2F320CAFA9E000508D9 /* libRCTAnimation.a in Frameworks */,
@@ -415,9 +415,6 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				E0F6F72AC0414E49A6CE2556 /* libRNOS.a in Frameworks */,
-				E0BAF0A1D95D4C4C9A17D5ED /* libTcpSockets.a in Frameworks */,
-				CA3DDB923943431C8E949B8D /* libUdpSockets.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,16 +577,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		60201CAA21E147B800811135 /* Recovered References */ = {
-			isa = PBXGroup;
-			children = (
-				1BEDE4857B9347BEB166F784 /* libRNOS.a */,
-				0B09068463CD46E5A426FA26 /* libTcpSockets.a */,
-				A30EFEBD53E044A585946756 /* libUdpSockets.a */,
-			);
-			name = "Recovered References";
-			sourceTree = "<group>";
-		};
 		60201CD221E147B900811135 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -612,6 +599,13 @@
 				60201CE021E147BA00811135 /* libTcpSockets.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		60201CE121E147E600811135 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		78C398B11ACF4ADC00677621 /* Products */ = {
@@ -662,7 +656,7 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* MamExampleTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
-				60201CAA21E147B800811135 /* Recovered References */,
+				60201CE121E147E600811135 /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
